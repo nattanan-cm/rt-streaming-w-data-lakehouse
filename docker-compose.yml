@@ -137,7 +137,7 @@ services:
 
   spark-master:
     image: bitnami/spark:latest
-    command: bin/spark-class org.apache.spark.deploy.master.master
+    command: bin/spark-class org.apache.spark.deploy.master.Master
     volumes:
       - ./jobs:/opt/bitnami/spark/jobs
     ports:
