@@ -30,7 +30,7 @@ $ <your_env_name>\Scripts\activate # For Windows
 
 #### Install the required packages
 ```sh
-pip install minio pandas pyspark python-dotenv
+pip install minio pandas numpy pyspark python-dotenv
 ```
  
 ## Data Source
